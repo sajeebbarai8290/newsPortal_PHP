@@ -1,0 +1,194 @@
+/* CSS Document */
+
+
+*
+{
+	padding: 0px;
+	margin: 0 auto;
+}
+
+
+body
+{
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	background: rgba(0,0,0,0.79);
+}
+
+.article
+{
+	display: block;
+	margin: 10px;
+	background: rgba(225,72,74,0.1);
+	height: auto;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+.articleDetails
+{
+	display: block;
+	margin: 10px;
+	background: rgba(225,72,74,0.1);
+	height: auto;
+	overflow: hidden;
+	font-size: 14px;
+	clear: both;
+}
+
+.article img
+{
+	margin: 5px;
+	float: left;
+	height:120px;
+}
+
+.article h2
+{
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	line-height: 14px;
+	display: block;
+	
+}
+
+.article h3
+{
+	font-size: 12px;
+	padding: 5px;
+	line-height: 12px;
+	display: block;
+}
+
+.images
+{
+	width: 100%;
+	display: block;
+	margin-bottom: 2px;
+	clear: both;
+}
+
+.title
+{
+	display: block;
+	background: black;
+	color:white;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+.header
+{
+	height: 120px;
+	border-bottom: thin red solid;
+	background: black;
+	color: white;
+}
+
+.logo img{
+	width:238px;
+	height: 119px;
+	float: left;
+		
+}
+.header1 img{
+	width:1110px;
+	height: 120px;
+	float: right;
+}
+.main
+{
+	width: 100%;
+	min-height: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+
+.menu
+{
+	width: 100%;
+	text-align: right;
+	background: #D7D7D7;
+	float: right;
+	margin-bottom: 5px;
+}
+
+.menu a
+{
+	display: block;
+	margin-bottom: 1px;
+	padding: 5px;
+	text-align: left;
+	background: rgba(199,88,90,0.55);
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+table
+{
+	float: left;
+	min-width: 600px;
+	border: thin solid silver;
+}
+td, th
+{
+	padding: 5px;
+	border-bottom: dashed silver thin;
+	text-align: left;
+}
+
+.content
+{
+	width: 1000px;
+	background: white;
+	float: left;
+	min-height: 300px;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 120px;
+}
+
+.footer
+{
+	height: 60px;
+	padding: 20px;
+	color: white;
+	background: black;
+	border-top: red solid thin;
+	position: fixed;
+	left:0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.error
+	{
+		color: red;
+		font-weight: bold;
+	}
+	.success
+	{
+		color: green;
+		font-weight: bold;
+	}
+	
+	input[type="text"], input[type="password"], textarea, select
+	{
+		padding: 5px;
+		font-size: 15px;
+		background: silver;
+		min-width: 600px;
+		margin-left: 20px;
+	}
+	
+	input[type="text"]:focus, textarea:focus, select:focus
+	{
+		background: white;
+		margin-left: 20px;
+	}
+	
+#slider{margin-bottom:25px;overflow: hidden;}
+#slider_text{margin-left:25px;margin-top:25px;}
+#slider_text h2{color:red;}
